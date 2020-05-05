@@ -1,0 +1,239 @@
+.left-block:hover::before{
+    content:'';
+    background-image: url(https://img2.goodfon.ru/wallpaper/nbig/0/ef/butcher-pudge-art-dota-2.jpg);
+    width: 100%;
+    height: 100%;
+    bottom: -110%;
+    left: 0;
+    position: absolute;
+    border:2px solid #fff;
+    border-radius: 50%;
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.left-block:hover:hover::before{
+    opacity: 0.8;
+}
+.left-block:nth-child(2):hover::before{
+    content:'';
+    background-image: url(https://i.pinimg.com/originals/b2/03/ca/b203ca6dbb9a17456dd4e09665b63052.jpg);
+    width: 100%;
+    height: 100%;
+    bottom: -110%;
+    left: 0;
+    position: absolute;
+    border:2px solid #fff;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.left-block:nth-child(3):hover::before{
+    content:'';
+    background-image: url(https://dota2.ru/img/heroes/shadow_fiend/portrait.jpg);
+    width: 100%;
+    height: 100%;
+    bottom: -110%;
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    left: 0;
+    position: absolute;
+    border:2px solid #fff;
+    border-radius: 50%;
+}
+.left-block:nth-child(4):hover::before{
+    content:'';
+    background-image: url(https://cdn.estnn.com/wp-content/uploads/2019/07/20022808/acolyte-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    bottom: -110%;
+    left: 0;
+    position: absolute;
+    border:2px solid #fff;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 943px) {
+
+    main{
+        min-height: 943px;
+
+    }
+    .opacity{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows:  repeat(2,1fr);
+        grid-gap: 10px;
+    }
+    .left-block:nth-child(1){
+        margin-left: 30px;
+        opacity: 0.8;
+        margin-top: 40px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 80%;
+        height: 70%;
+        grid-column: 1/2;
+        grid-row: 1/2;
+        background-image: url(https://img2.goodfon.ru/wallpaper/nbig/0/ef/butcher-pudge-art-dota-2.jpg);
+    }
+    .left-block:nth-child(1):hover{
+        transform: none;
+    }
+    .left-block:nth-child(1):hover::after{ 
+        content: none;
+    } 
+    .left-block:nth-child(1):hover::before{ 
+        content: none;
+    } 
+    
+    .left-block:nth-child(2){
+        opacity: 0.8;
+        margin-top: 40px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 80%;
+        height: 70%;
+        grid-column: 2/3;
+        grid-row:1/2 ;
+        background-image: url(https://i.pinimg.com/originals/b2/03/ca/b203ca6dbb9a17456dd4e09665b63052.jpg);
+
+    }
+    .left-block:nth-child(2):hover{
+        transform: none;
+    }
+    .left-block:nth-child(2):hover::after{ 
+        content: none;
+    } 
+    .left-block:nth-child(2):hover::before{ 
+        content: none;
+    } 
+
+    .left-block:nth-child(3){
+        margin-left: 30px;
+        opacity: 0.8;
+        margin-top: 40px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 80%;
+        height: 70%;
+        grid-column:1/2 ;
+        grid-row: 2/3;
+        
+        background-image: url(https://dota2.ru/img/heroes/shadow_fiend/portrait.jpg);
+
+    }
+    .left-block:nth-child(3):hover{
+        transform: none;
+    }
+    .left-block:nth-child(3):hover::after{ 
+        content: none;
+    } 
+    .left-block:nth-child(3):hover::before{ 
+        content: none;
+    } 
+
+    
+    
+    .left-block:nth-child(4){
+        padding: 0;
+        opacity: 0.8;
+        margin-top: 40px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 80%;
+        height: 70%;
+        grid-column:2/3 ;
+        grid-row:2/3 ;
+        background-image: url(https://cdn.estnn.com/wp-content/uploads/2019/07/20022808/acolyte-1.jpg);
+
+    }
+   
+    .left-block:nth-child(4):hover{
+        transform: none;
+    }
+    .left-block:nth-child(4):hover::after{ 
+        content: none;
+    } 
+    .left-block:nth-child(4):hover::before{ 
+        content: none;
+    } 
+    
+   
+    .left-block h2{
+        margin-top: 20px;
+    }
+    .left-block p{
+        margin-top: 20px;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    main{
+        height: 400px;
+
+    }
+
+    .left-block{
+        width: 100%;
+        height: 32%;
+        margin: 0 auto;
+    }
+   
+    .opacity{
+       
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
+
+
+ul li:nth-child(4)::before{
+    content: '';
+    width: 2px;
+    height: 10px;
+    position: absolute;
+    background-color: #fff;
+    bottom: -10px;
+}
+ul li:nth-child(4)::after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    background-color: #fff;
+    bottom: -10px;
+    border-radius: 20%;
+    right: 0;
+}
+ul li:nth-child(1)::before{
+content: none;
+}
+ul li:nth-child(1)::after{
+content: none;
+}
+ul li:nth-child(2)::before{
+content: none;
+}
+ul li:nth-child(2)::after{
+content: none;
+}
+ul li:nth-child(3)::before{
+content: none;
+}
+ul li:nth-child(3)::after{
+content: none;
+}
