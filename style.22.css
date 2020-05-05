@@ -103,11 +103,7 @@ ol li{
 
 @media screen and (max-width: 768px) {
 
-    main{
-        height: 400px;
-
-    }
-
+    
     .left-block{
         width: 70%;
         height: 32%;
@@ -122,11 +118,10 @@ ol li{
 }
 
 @media screen and (max-width: 943px) {
-
     main{
-        min-height: 943px;
-
+        min-height: 1000px;
     }
+ 
     .opacity{
         display: grid;
         grid-template-columns: repeat(2,1fr);
@@ -247,8 +242,7 @@ ol li{
 @media screen and (max-width: 768px) {
 
     main{
-        height: 400px;
-
+        height: 1100px;
     }
 
     .left-block{

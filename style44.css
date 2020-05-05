@@ -104,8 +104,7 @@ ol li{
 @media screen and (max-width: 943px) {
 
     main{
-        min-height: 943px;
-
+        min-height: 1000px;
     }
     .opacity{
         display: grid;
@@ -225,8 +224,7 @@ ol li{
 @media screen and (max-width: 768px) {
 
     main{
-        height: 400px;
-
+        height: 1100px;
     }
 
     .left-block{
