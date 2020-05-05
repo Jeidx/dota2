@@ -1,3 +1,11 @@
+main{   
+    
+    background-image: url(https://www.ubackground.com/_ph/11/289912337.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;  
+}
+
 .left-block:hover::before{
     content:'';
     background-image: url(https://lh3.googleusercontent.com/proxy/lw7_Ul5N5iYxcdGzYOp57KPpw9UOPhKa_1yzsuhp2glRD5clLjEpL8RMf8ZyO1sw-2YenYyro2hGiDeUhbiQ8-1-BRbrGmd2NY06J3epHVEQUjSF95dVIHY4FxWeGfW5JFYmj2LpWRUONcEHiKb2ogJVXDx4me7xpRV8rG5jrcmpUjy8AODSz6j3CgYMLKUbVJZPMqO8Fjclj9k);
@@ -58,6 +66,41 @@
     border:2px solid #fff;
     border-radius: 50%;
 }
+footer{
+    color: #fff;
+    margin: 0 auto;
+    width: 100%;
+    height: 100px;
+    max-width: 1200px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+ol{
+    height: 50px;
+    display: inline-flex;
+    margin: 15px auto 5px;
+}
+ol li{
+    margin: 0 10px;
+}
+
+.fa-github{
+   font-size: 30px;
+   color: #fff;
+}
+.fa-github:hover{
+    color: rgb(238, 248, 90);
+}
+.fa-linkedin{
+    font-size: 30px;
+    color: #fff;
+}
+.fa-linkedin:hover{
+    color: rgb(238, 248, 90);
+}
+
 @media screen and (max-width: 943px) {
 
     main{

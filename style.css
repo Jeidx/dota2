@@ -33,7 +33,7 @@ ul{
 }
 ul li{
     text-align: center;
-    border:1px solid #fff;
+    
     min-width: 15%;
     min-width: 22%;   
     height: 30px; 
@@ -154,7 +154,7 @@ main{
     margin: 0 auto;
     color: #fff;
     position: relative;
-    background-image: url(https://i.pinimg.com/originals/c9/3e/f9/c93ef952f876580db705fbdaee5aeaaa.jpg);
+    background-image: url(https://3dnews.ru/assets/external/illustrations/2016/09/08/939148/1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;  
@@ -183,7 +183,7 @@ section{
     width: 30%;
     height: 35%;
     background: rgba(0, 0, 0, 0.3);
-    border: 2px solid #fff;
+    
     border-radius: 10px;
     
     transition: all 1s;
@@ -211,6 +211,7 @@ section{
     margin-top: 20px;
 }
 .left-block:hover::after{
+   
     content:'';
     width: 6px;
     height: 21px;
@@ -220,6 +221,7 @@ section{
     background-color: rgb(255, 255, 255);
 }
 .left-block:hover::before{
+   
     content:'';
     background-image: url(https://gamepedia.cursecdn.com/dota2_gamepedia/b/b4/Lore_Juggernaut.png);
     width: 100%;
@@ -232,6 +234,9 @@ section{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    -webkit-box-shadow: 0px 0px 25px -1px rgba(255,255,255,1);
+-moz-box-shadow: 0px 0px 25px -1px rgba(255,255,255,1);
+box-shadow: 0px 0px 25px -1px rgba(255,255,255,1);
 }
 .left-block:hover:hover::before{
     opacity: 0.8;
@@ -249,6 +254,9 @@ section{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    -webkit-box-shadow: 0px 0px 25px -1px rgba(255,255,255,1);
+-moz-box-shadow: 0px 0px 25px -1px rgba(255,255,255,1);
+box-shadow: 0px 0px 25px -1px rgba(255,255,255,1);
 }
 .left-block:nth-child(3):hover::before{
     content:'';
@@ -263,6 +271,7 @@ section{
     position: absolute;
    border:2px solid #fff;
    border-radius: 50%;
+
 }
 .left-block:nth-child(4):hover::before{
     content:'';
@@ -277,6 +286,9 @@ section{
     position: absolute;
     border:2px solid #fff;
     border-radius: 50%;
+    -webkit-box-shadow: 0px 0px 25px -1px rgba(255,255,255,1);
+-moz-box-shadow: 0px 0px 25px -1px rgba(255,255,255,1);
+box-shadow: 0px 0px 25px -1px rgba(255,255,255,1);
 }
 
 
@@ -301,6 +313,32 @@ footer{
     height: 100px;
     max-width: 1200px;
     background-color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+ol{
+    height: 50px;
+    display: inline-flex;
+    margin: 15px auto 5px;
+}
+ol li{
+    margin: 0 10px;
+}
+
+.fa-github{
+   font-size: 30px;
+   color: #fff;
+}
+.fa-github:hover{
+    color: rgb(238, 248, 90);
+}
+.fa-linkedin{
+    font-size: 30px;
+    color: #fff;
+}
+.fa-linkedin:hover{
+    color: rgb(238, 248, 90);
 }
 
 @media screen and (max-width: 943px) {
