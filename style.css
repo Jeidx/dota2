@@ -33,7 +33,6 @@ ul{
 }
 ul li{
     text-align: center;
-    
     min-width: 15%;
     min-width: 22%;   
     height: 30px; 
@@ -82,9 +81,78 @@ ul li:nth-child(1)::before{
 ul li:last-child{
     min-width: 23%;
 }
-ul li:hover{
-   background:  rgba(255, 255, 255, 0.4);
+ul li:hover:nth-child(1)::before{
+    content: '';
+    background-color: #fff;
+    width: 1px;
+    height: 90%;
+    left: 0;
+    top: -5px;
+    position: absolute;
 }
+ul li:hover:nth-child(1)::after{
+    content: '';
+    background-color: #fff;
+    width: 80%;
+    height: 1px;
+    left: 0;
+    top: -5px;
+    position: absolute;
+}
+ul li:hover:nth-child(2)::before{
+    content: '';
+    background-color: #fff;
+    width: 80%;
+    height: 1px;
+    left: 0;
+    top: -5px;
+    position: absolute;
+}
+ul li:hover:nth-child(2)::after{
+    content: '';
+    background-color: #fff;
+    width: 80%;
+    height: 1px;
+    bottom:  -3px;
+    position: absolute;
+}
+ul li:hover:nth-child(3)::before{
+    content: '';
+    background-color: #fff;
+    width: 80%;
+    height: 1px;
+    right: 0;
+    top: -3px;
+    position: absolute;
+}
+ul li:hover:nth-child(3)::after{
+    content: '';
+    background-color: #fff;
+    width: 80%;
+    height: 1px;
+    bottom:  -3px;
+    position: absolute;
+    right: 9px;
+}
+ul li:hover:nth-child(4)::before{
+    content: '';
+    background-color: #fff;
+    width: 1px;
+    height: 90%;
+    right: 0;
+    top: 5px;
+    position: absolute;
+}
+ul li:hover:nth-child(4)::after{
+    content: '';
+    background-color: #fff;
+    width: 80%;
+    height: 1px;
+    right: 0;
+    bottom: -3px;
+    position: absolute;
+}
+
 ul li a{
     color: #fff;
     width: 100%;
