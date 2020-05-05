@@ -91,14 +91,14 @@ ol li{
    color: #fff;
 }
 .fa-github:hover{
-    color: rgb(238, 248, 90);
+    color: rgb(152, 2, 211);
 }
 .fa-linkedin{
     font-size: 30px;
     color: #fff;
 }
 .fa-linkedin:hover{
-    color: rgb(238, 248, 90);
+    color: rgb(152, 2, 211);
 }
 
 @media screen and (max-width: 768px) {
